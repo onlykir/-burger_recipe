@@ -1,7 +1,7 @@
 body {
 	margin: 0;
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 100%;
   font-weight: 300;
   line-height: 2em;
   background-image: url("../images/background.jpg");
@@ -12,12 +12,19 @@ body {
   color: #fff;
 }
 
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   text-shadow: 2px 1px 1px black;
   color: #ffd800;
   font-size: 3em;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
   text-transform: uppercase;
 }
 
@@ -35,22 +42,21 @@ ul {
 ul:after {
   content: "";
   display: block;
-  width: 500px;
+  width: 60%;
   height: 3px;
-  margin: 20px auto 120px;
+  margin: 1.5% auto 10%;
 
   background-color: #fff;
 }
 
 li {
-  padding-bottom: 20px;
+  padding-bottom: 2%;
 }
 
 .container {
-  padding: 30px;
+  padding: 2%;
   background-color: #242424;
-  width: 100%;
-  max-width: 1000px;
+  max-width: 50%;
 }
 
 /* left step */
@@ -60,21 +66,23 @@ li {
   border: 6px solid #4b4b4b;
 }
 
-.step__index {
+.step__index__left {
+  height: 1.5em;
+  width: 1.5em;
   background-color: #ffd800;
   color: #353535;
   font-size: 4em;
-  padding: 30px 30px;
+  padding: 3%;
   position: absolute;
-  bottom: 110px;
+  bottom: 30%;
   left: 0;
   text-align: center;
 }
 
-.step__text {
+.step__text__left {
   font-weight: 300;
-  font-size: 2em;
-  margin-left: 15%;
+  font-size: 1.5em;
+  margin-left: 10%;
   text-align: right;
 }
 
@@ -82,8 +90,8 @@ li {
   position: relative;
   display: flex; 
   align-items: center;
-  padding-bottom: 150px;
-  padding-left: 30px;
+  padding-bottom: 17%;
+  padding-left: 3%;
 }
 
 /* right step*/
@@ -95,20 +103,22 @@ li {
 }
 
 .step__index__right {
+  height: 1.5em;
+  width: 1.5em;
   background-color: #ffd800;
   color: #353535;
   font-size: 4em;
-  padding: 30px 30px;
+  padding: 3% 3%;
   position: absolute;
-  bottom: 110px;
-  right: 435px;
+  bottom: 29%;
+  right: 45%;
   text-align: center;
 }
 
 .step__text__right {
   font-weight: 300;
-  font-size: 2em;
-  margin-right: 15%;
+  font-size: 1.5em;
+  margin-right: 10%;
 }
 
 .step__right{
@@ -116,5 +126,5 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 150px;
+  padding-bottom: 17%;
 }
