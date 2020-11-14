@@ -75,7 +75,7 @@ li {
 }
 
 .step__text__left {
-  line-height: 100%;
+  line-height: 120%;
   width: 25vw;
   height: 100%;
   font-weight: 300;
@@ -103,7 +103,7 @@ li {
 }
 
 .step__text__right {
-  line-height: 100%;
+  line-height: 120%;
   height: 100%;
   width: 25vw;
   font-weight: 300;
