@@ -40,7 +40,7 @@ ul:after {
   content: "";
   display: block;
   width: 60%;
-  height: 0.5vh;
+  height: 0.4vh;
   margin: 1.5% auto 10%;
 
   background-color: #fff;
@@ -54,13 +54,14 @@ li {
   padding: 2vw;
   background-color: #242424;
   max-width: 1000px;
+  min-width: 50vh;
 }
 
 .step__block:after {
   content: "";
   display: block;
   width: 60%;
-  height: 0.5vh;
+  height: .4vh;
   margin: -5% auto 10%;
 
   background-color: #ffd800;
@@ -74,9 +75,11 @@ li {
 }
 
 .step__text__left {
+  line-height: 100%;
   width: 25vw;
+  height: 100%;
   font-weight: 300;
-  font-size: 3vh;
+  font-size: 130%;
   margin-left: auto;
   text-align: center;
   padding-left: 10vh;
@@ -89,7 +92,6 @@ li {
   align-items: center;
   padding-bottom: 17vh;
   padding-left: 3vh;
-  overflow: hidden;
 }
 
 /* right step*/
@@ -101,9 +103,11 @@ li {
 }
 
 .step__text__right {
+  line-height: 100%;
+  height: 100%;
   width: 25vw;
   font-weight: 300;
-  font-size: 3vh;
+  font-size: 130%;
   margin-right: 10vh;
   text-align: center;
 }
